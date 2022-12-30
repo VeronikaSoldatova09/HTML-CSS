@@ -1,0 +1,36 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    font-size: 34px;
+    font-weight: 600;
+}
+caption{
+    display: table-caption;
+    text-align: -webkit-center;
+    margin-bottom: 10px;
+    color: black;
+    font-weight: 500px;
+    font-size: 14px;
+}
+table{
+        border-collapse: collapse;
+        border: 2px solid rgb(200,200,200);
+        letter-spacing: 1px;
+        font-size: 13px;
+        font-weight: 200px;
+}
+td{
+    text-align: center;
+}
+td, th{
+    border: 1.5px solid rgb(190, 190, 190);
+    padding: 10px 20px;
+}
+tr{
+    background-color: rgb(245,245,245);
+}
+.colour{
+    color: rgb(7, 7, 207);
+    text-decoration-line: underline;
+}
