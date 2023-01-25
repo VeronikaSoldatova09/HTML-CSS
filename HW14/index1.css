@@ -1,0 +1,122 @@
+.main {
+    margin: 50px auto;
+    width: 260px;
+    height: 450px;
+    background-color: black;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 4px 4px 4px #757775;
+}
+
+.calculator {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nameCalculator {
+    color: #757775;
+    font-weight: bold;
+    margin-left: 12px;
+    padding-top: 10px;
+}
+
+span {
+    font-size: 23px;
+}
+
+.screen {
+    width: 80%;
+    height: 35px;
+    background-color: rgb(169, 159, 159);
+    text-align: right;
+    line-height: 8px;
+    border: 12px solid rgb(71, 57, 47);
+    border-radius: 2px;
+    margin-left: 9px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 200px;
+}
+
+.icons {
+    border: 10px;
+    border-radius: 9px;
+    background-color: aquamarine;
+    width: 16px;
+    height: 15px;
+    margin-left: 10px;
+}
+
+.icons2 {
+    border: 10px;
+    border-radius: 9px;
+    background-color: orangered;
+    width: 16px;
+    height: 15px;
+    position: absolute;
+    top: 194px;
+    left: 680px;
+}
+
+.icons3 {
+    border: 10px;
+    border-radius: 9px;
+    background-color: orangered;
+    width: 16px;
+    height: 15px;
+    position: absolute;
+    top: 194px;
+    left: 810px;
+}
+
+.icons4 {
+    border: 10px;
+    border-radius: 9px;
+    background-color: rgb(71, 57, 47);
+    width: 16px;
+    height: 25px;
+    position: absolute;
+    top: 205px;
+    left: 810px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.2rem;
+    color: whitesmoke;
+    cursor: pointer;
+    user-select: none;
+}
+
+.buttons:hover {
+    filter: brightness(120%);
+}
+
+.btnBrown {
+    background-color: rgb(71, 57, 47);
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    margin: 4px;
+}
+
+.btnGray {
+    background-color: rgb(169, 159, 159);
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    margin: 4px;
+}
+
+.btnOrange {
+    background-color: orangered;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    margin: 4px;
+}
